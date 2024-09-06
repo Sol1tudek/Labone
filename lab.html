@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лаба 1</title>
+    <style>
+        body {
+            background-color: #C0C0C0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #C0C0C0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            background-color: #A9A9A9;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form {
+            display: inline-block;
+            vertical-align: top;
+        }
+        .image {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+        }
+        .result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Голинский Данила Владимирович</h2>
+            <p>ИСУ: 412920 &nbsp;&nbsp; Вариант: 488784</p>
+        </header>
+        
+        <form>
+		
+			<label>Координата X:</label><br>
+            <input type="text" name="x" value="1"><br>
+			
+            <label>Координата Y:</label><br>
+            <input type="radio" name="y" value="-4"> -4<br>
+            <input type="radio" name="y" value="-3"> -3<br>
+            <input type="radio" name="y" value="-2"> -2<br>
+            <input type="radio" name="y" value="-1"> -1<br>
+            <input type="radio" name="y" value="0"> 0<br>
+            <input type="radio" name="y" value="1"> 1<br>
+            <input type="radio" name="y" value="2"> 2<br>
+			<input type="radio" name="y" value="3"> 3<br>
+			<input type="radio" name="y" value="4"> 4<br>
+            
+            <label>Координата Z:</label><br>
+            <input type="radio" name="y" value="1"> 1<br>
+            <input type="radio" name="y" value="1.5"> 1.5<br>
+            <input type="radio" name="y" value="2"> 2<br>
+            <input type="radio" name="y" value="2.5"> 2.5<br>
+            <input type="radio" name="y" value="3"> 3<br>
+          
+            
+            <input type="submit" value="Отправить">
+        </form>
+        
+        <div class="image">
+            <img src="Снимок экрана 2024-09-05 173818.png" alt="Graph" width="500">
+        </div>
+        
+        <div class="result">
+            X: 2, Y: 1, R: 1, Result: результат попало или нет
+        </div> 
+    </div>
+</body>
+</html>
